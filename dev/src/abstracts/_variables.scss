@@ -1,0 +1,40 @@
+@import "./mixins";
+
+// colors
+$c-white: #fff;
+
+
+$c-cultured: #eeeeee;
+$c-lightgrey:rgb(210, 215, 211);
+$c-pumice: $c-cultured;
+$c-mid-grey: rgb(94, 94, 94);
+$c-quick-silver: $c-mid-grey;
+$c-dark-grey: rgb(70, 70, 70);
+$c-davys-grey: $c-dark-grey;
+$c-black: #000;
+// primary color gradient
+$c-mantis: #7ed56f;
+$c-emerald: #55c57a;
+$c-mint: #28b485;
+// second color gradient
+$c-selective-yellow: #ffb900;
+$c-orange-crayola: #ff7730;
+// tertiary color gradient
+$c-dodger-blue: #2998ff;
+$c-majorelle-blue: #5643FA;
+
+// viewport
+$v-mobile-L: 42.5rem;
+$v-tablet: 76.8rem;
+$v-desktop: 102.4rem;
+$v-desktop-L: 144rem;
+$v-4k: 256rem;
+
+// sizes
+$grid-width: $v-desktop-L;
+$basesize: 0.8rem;
+$gutter-vertical: 6rem; // 
+$gutter-horizontal: $basesize * 2; //
+
+// font size
+$default-font-size: 1.6rem;

@@ -1,0 +1,36 @@
+@import '../../abstracts/variables';
+
+$moduleName: 'section';
+
+.#{$moduleName} {
+  &__base {
+    background-color: $c-cultured;
+
+    &--about {
+      margin-top: -25vh;
+      padding: 25rem 0;
+    }
+
+    &--features {
+      padding: 20rem 0;
+      background-image: 
+      linear-gradient(to right bottom, rgba($c-mantis, 0.8), rgba($c-mint, 0.8)), 
+      url('../../../assets/nat-4.jpg');
+      background-size: cover;
+      transform: skewY(-7deg);
+      margin-top:-10rem;
+
+      & > * {
+        transform: skewY(7deg);
+      }
+    }
+
+    &--tours {
+      padding: 25rem 0 50rem 0;
+      margin-top: -10rem;
+    }
+  }
+
+  &__content {
+  }
+}

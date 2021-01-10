@@ -1,0 +1,11 @@
+@import '../../main.scss';
+@import '../../layout/grid/grid.scss';
+
+$moduleName: 'basepage';
+
+.#{$moduleName} {
+  &__base {
+    @include getGrid('basegrid');
+    padding: 30px;
+  }
+}
