@@ -16,6 +16,12 @@ const FEATURE_BOX = new FeatureBox();
 import Card from './components/card/card';
 const CARD = new Card();
 
+import Story from './components/story/story';
+const STORY = new Story();
+
+import BgVideo from './components/bg-video/bg-video';
+const BG_VIDEO = new BgVideo();
+
 import Section from './layout/section/section';
 const SECTION = new Section();
 

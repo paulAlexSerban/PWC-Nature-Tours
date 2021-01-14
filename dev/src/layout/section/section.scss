@@ -4,11 +4,10 @@ $moduleName: 'section';
 
 .#{$moduleName} {
   &__base {
-    background-color: $c-cultured;
-
     &--about {
       margin-top: -25vh;
       padding: 25rem 0;
+      background-color: $c-cultured;
     }
 
     &--features {
@@ -19,6 +18,7 @@ $moduleName: 'section';
       background-size: cover;
       transform: skewY(-7deg);
       margin-top:-10rem;
+      background-color: $c-cultured;
 
       & > * {
         transform: skewY(7deg);
@@ -26,8 +26,14 @@ $moduleName: 'section';
     }
 
     &--tours {
-      padding: 25rem 0 50rem 0;
+      padding: 25rem 0 5rem 0;
       margin-top: -10rem;
+      background-color: $c-cultured;
+    }
+
+    &--stories {
+      padding: 15rem 0;
+      position: relative;
     }
   }
 

@@ -49,7 +49,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(woff(2)?|ttf|eot|svg|gif|png|jpg)(\?v=\d+\.\d+\.\d+)?$/i,
+        test: /\.(woff(2)?|ttf|eot|svg|gif|png|jpg|mp4|webm)(\?v=\d+\.\d+\.\d+)?$/i,
         use: [
           {
             loader: 'file-loader',
