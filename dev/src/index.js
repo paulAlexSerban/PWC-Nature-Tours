@@ -22,6 +22,12 @@ const STORY = new Story();
 import BgVideo from './components/bg-video/bg-video';
 const BG_VIDEO = new BgVideo();
 
+import Booking from './components/booking/booking';
+const BOOKING = new Booking();
+
+import Form from './components/form/form';
+const FORM = new Form();
+
 import Section from './layout/section/section';
 const SECTION = new Section();
 

@@ -1,0 +1,22 @@
+@import "../../abstracts/variables";
+
+$moduleName: 'booking';
+
+.#{$moduleName} {
+  &__base {
+    background-image: linear-gradient(105deg, 
+      rgba($c-white, 0.8) 0%, 
+      rgba($c-white, 0.8) 50%, 
+      transparent 50%),
+      url(../../../assets/nat-10.jpg);
+    background-size: 100%; //same effect as cover
+    border-radius: 3px;
+    box-shadow: 0, 1.5rem 4rem rgba($c-black, 0.2);
+    height: 50rem;
+  }
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
+}

@@ -35,6 +35,11 @@ $moduleName: 'section';
       padding: 15rem 0;
       position: relative;
     }
+
+    &--bookings {
+      padding: 15rem 0;
+      background-image: linear-gradient(to right bottom, $c-mantis, $c-mint);
+    }
   }
 
   &__content {

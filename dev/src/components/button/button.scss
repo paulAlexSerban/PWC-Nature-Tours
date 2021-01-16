@@ -4,6 +4,7 @@ $moduleName: 'button';
 
 .#{$moduleName} {
   &__base {
+    &,
     &:link,
     &:visited {
       text-transform: uppercase;
@@ -14,6 +15,9 @@ $moduleName: 'button';
       transition: all 0.2;
       font-size: $default-font-size;
       position: relative;
+
+      // changes for the <button> element
+      border: none;
     }
 
     &:hover {
@@ -26,9 +30,11 @@ $moduleName: 'button';
       }
     }
 
-    &:active {
+    &:active,
+    &:focus {
       transform: translateY(-1px);
       box-shadow: 0 0.5rem 1rem rgba($c-black, 0.2);
+      outline: none
     }
 
     &::after {
