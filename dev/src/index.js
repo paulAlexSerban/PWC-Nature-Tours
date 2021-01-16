@@ -4,6 +4,9 @@ const BASEPAGE = new Basepage();
 import Header from './layout/header/header';
 const HEADER = new Header();
 
+import Footer from './layout/footer/footer';
+const FOOTER = new Footer();
+
 import Button from './components/button/button';
 const BUTTON = new Button();
 
