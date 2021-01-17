@@ -38,7 +38,7 @@ $moduleName: 'button';
     }
 
     &::after {
-      @include absoluteCenterHorizontalVertical(0, 0, false);
+      @include absCenter(0, 0, false);
       content: '';
       display: inline-block;
       height: 100%;

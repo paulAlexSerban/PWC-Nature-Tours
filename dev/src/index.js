@@ -34,6 +34,9 @@ const BOOKING = new Booking();
 import Form from './components/form/form';
 const FORM = new Form();
 
+import Popup from './components/popup/popup';
+const POPUP = new Popup();
+
 import Section from './layout/section/section';
 const SECTION = new Section();
 

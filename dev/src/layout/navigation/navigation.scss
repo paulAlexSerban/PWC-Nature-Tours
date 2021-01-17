@@ -115,7 +115,7 @@ $moduleName: 'navigation';
   }
 
   &__list {
-    @include absoluteCenterHorizontalVertical;
+    @include absCenter;
     list-style: none;
     text-align: center;
   }

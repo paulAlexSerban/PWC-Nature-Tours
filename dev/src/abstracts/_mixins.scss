@@ -6,7 +6,7 @@
   }
 }
 
-@mixin absoluteCenterHorizontalVertical($leftPos: 50%, $topPos: 50%, $translated: true) {
+@mixin absCenter($leftPos: 50%, $topPos: 50%, $translated: true) {
   position: absolute;
   top: $topPos;
   left: $leftPos;

@@ -45,7 +45,7 @@ $moduleName: 'story';
   }
 
   &__caption {
-    @include absoluteCenterHorizontalVertical;
+    @include absCenter;
 
     color: $c-white;
     text-transform: uppercase;

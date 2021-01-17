@@ -27,7 +27,7 @@ $moduleName: 'header';
   }
 
   &__text-box {
-    @include absoluteCenterHorizontalVertical(50%, 40%);
+    @include absCenter(50%, 40%);
     text-align: center;
   }
 }

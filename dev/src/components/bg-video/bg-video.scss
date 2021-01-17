@@ -4,7 +4,7 @@ $moduleName: 'bg-video';
 
 .#{$moduleName} {
   &__base {
-    @include absoluteCenterHorizontalVertical(0, 0, false);
+    @include absCenter(0, 0, false);
     height: 100%;
     width: 100%;
     z-index: -1;

@@ -78,7 +78,7 @@ $moduleName: 'form';
   }
 
   &__radio-button {
-    @include absoluteCenterHorizontalVertical(0, 3.8rem, false);
+    @include absCenter(0, 3.8rem, false);
     height: 3rem;
     width: 3rem;
     border: 5px solid $c-mantis;
@@ -86,7 +86,7 @@ $moduleName: 'form';
     display: inline-block;
 
     &::after {
-      @include absoluteCenterHorizontalVertical;
+      @include absCenter;
       content: '';
       display: block;
       height: 1.3rem;
