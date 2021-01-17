@@ -19,11 +19,9 @@ $moduleName: 'card';
   }
 
   &__side {
+    @include absoluteCenterHorizontalVertical(0, 0, false);
     height: 55rem;
     transition: all 0.8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
@@ -123,10 +121,7 @@ $moduleName: 'card';
   }
 
   &__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include absoluteCenterHorizontalVertical;
     width: 90%;
     text-align: center;
   }

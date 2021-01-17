@@ -1,6 +1,9 @@
 import Basepage from './pages/basepage/basepage';
 const BASEPAGE = new Basepage();
 
+import Navigation from './layout/navigation/navigation';
+const NAVIGATION = new Navigation();
+
 import Header from './layout/header/header';
 const HEADER = new Header();
 
