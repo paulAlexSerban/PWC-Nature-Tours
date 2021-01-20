@@ -58,6 +58,16 @@ $moduleName: 'navigation';
     &:hover .#{$moduleName}__burger-icon::after {
       top: 1.2rem;
     }
+
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 4rem;
+    }
+
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
 
   &__burger-icon {
@@ -100,6 +110,16 @@ $moduleName: 'navigation';
     background-image: radial-gradient($c-mantis, $c-mint);
     z-index: 1000;
     transition: all 0.8s;
+
+    @include respond(tab-port) {
+      top: 4.5rem;
+      right: 4.5rem;
+    }
+
+    @include respond(phone) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
   }
 
   &__nav {

@@ -5,7 +5,7 @@ $moduleName: 'feature-box';
 .#{$moduleName} {
   &__base {
     background-color: rgba($c-white, 0.7);
-    font-size: $default-font-size - 0.1;
+    font-size: 1.5rem;
     padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
@@ -14,6 +14,11 @@ $moduleName: 'feature-box';
 
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);
+    }
+
+    @include respond(tab-port) {
+      font-size: 1.3rem;
+      padding: 1.5rem;
     }
   }
 
@@ -24,5 +29,9 @@ $moduleName: 'feature-box';
     background-image: linear-gradient(to right, $c-mantis, $c-mint);
     color: transparent;
     -webkit-background-clip: text;
+
+    @include respond(tab-port) {
+      margin-bottom: 0
+    }
   }
 }
